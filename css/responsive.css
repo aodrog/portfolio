@@ -1,0 +1,159 @@
+@media (max-width:1024px){
+
+    #btnmobile {
+        display: block;
+    }
+    
+    .menu{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        top: 70px;
+        background-color: rgba(0,0,0,.4);
+        border-radius: 10px;
+        height: calc(100vh-70px);
+        visibility: hidden;
+    }
+
+    #menu.ativo {
+        display: block;
+    }
+
+    #menu.ativo ul {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0,0,0,.4);
+        border-radius: 10px;
+        text-align: center;
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    .container nav {
+        justify-content: space-between;
+    }
+
+    body .home .content h1 {
+        font-size: 8rem;
+    }
+
+    body .home .content h2 {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width:864px){
+    
+    body .home .content .h1 {
+        font-size: 3rem;
+        color: white;
+        text-shadow: 5px 5px 550px black;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    body .home .content .h2 {
+        font-size: 3rem;
+        color: white;
+        text-shadow: 5px 5px 550px black;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    body .resumo .historico {
+        font-size: 12px;
+        max-width: 40vw;
+        max-height: 90vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    body .resumo .historico p {
+        margin-top: 10px;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+        font-style: italic;
+        max-height: 80vh;
+    }
+
+}
+
+@media (max-width:772px){
+
+    body .columns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    body .tools {
+        min-height: 230vh;
+    }
+}
+
+@media (max-width:632px){
+
+    body .icone-resumo,
+    body .icone-contato {
+        display: none;
+    }
+
+    body .resumo .historico {
+        font-size: 12px;
+        max-width: 90vw;
+        max-height: 90vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    body .contatos .links-contact .social-link {
+        margin-top: 20px;
+}
+
+    body .content-skills .h1-skills {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        margin-bottom: 50px;
+        font-family: 'Shadows Into Light', sans-serif;
+    }
+
+    body .icon-skills {
+        font-size: 80px;
+        max-width: 90vw;
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+}
+
+@media (max-width:420px){
+    body .home .content .h1 {
+        font-size: 2.2rem;
+        color: white;
+        text-shadow: 5px 5px 550px black;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body .home .content .h2 {
+        font-size: 2.2rem;
+        color: white;
+        text-shadow: 5px 5px 550px black;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+    }
+
+    body .icon-skills {
+        font-size: 50px;
+        max-width: 90vw;
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    }
+
+    body .tools {
+        min-height: 270vh;
+    }
+}
