@@ -167,12 +167,6 @@ body .home .content .h2 {
     font-family: 'Shadows Into Light', cursive;
 }
 
-body .wave-home img {
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-}
-
 body .resumo {
     background-color: #fff;
     height: 100vh;
